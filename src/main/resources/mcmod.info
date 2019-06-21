@@ -1,0 +1,16 @@
+[
+{
+  "modid": "better_fps_limiter",
+  "name": "Better FPS Limiter",
+  "description": "Allows a locked framerate above the standard max of 260.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Sk1er"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
