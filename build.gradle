@@ -22,7 +22,7 @@ plugins {
 */
 version = "1.0"
 group= "club.sk1er" // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = "modid"
+archivesBaseName = "Sk1er FPS Limiter"
 
 sourceCompatibility = 1.8
 targetCompatibility = 1.8
