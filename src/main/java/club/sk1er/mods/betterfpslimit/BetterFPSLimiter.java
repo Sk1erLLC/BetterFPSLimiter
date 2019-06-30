@@ -2,17 +2,14 @@ package club.sk1er.mods.betterfpslimit;
 
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import net.minecraftforge.client.ClientCommandHandler;
-import net.minecraftforge.fml.common.DummyModContainer;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.common.ModMetadata;
-import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.commons.io.FileUtils;
 
 import java.io.IOException;
-import java.util.Collections;
 
-@Mod(modid = BetterFPSLimiter.MOD_ID, name = BetterFPSLimiter.MOD_NAME, version = BetterFPSLimiter.MOD_VERSION, clientSideOnly = true)
+@Mod(modid = BetterFPSLimiter.MOD_ID, name = BetterFPSLimiter.MOD_NAME, version = BetterFPSLimiter.MOD_VERSION)
 public class BetterFPSLimiter {
 
     public static final String MOD_ID = "better_fps_limiter";
@@ -20,7 +17,6 @@ public class BetterFPSLimiter {
     public static final String MOD_NAME = "Better FPS Limiter";
     public static boolean enabled = true;
     public static boolean unlimited = true;
-
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {

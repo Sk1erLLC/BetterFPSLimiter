@@ -5,8 +5,8 @@ import club.sk1er.mods.betterfpslimit.transform.FullClassTransformer;
 import club.sk1er.mods.betterfpslimit.transform.impl.MinecraftTransformer;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
+import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import net.minecraft.launchwrapper.IClassTransformer;
-import net.minecraftforge.fml.relauncher.IFMLLoadingPlugin;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.objectweb.asm.ClassReader;
@@ -27,7 +27,6 @@ public final class ClassTransformer implements IClassTransformer {
 
     public ClassTransformer() {
         this.registerTransformer(new MinecraftTransformer());
-
     }
 
     private void registerTransformer(FramesTransformer transformer) {

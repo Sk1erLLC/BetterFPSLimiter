@@ -1,9 +1,7 @@
 package club.sk1er.mods.betterfpslimit.transform.impl;
 
 import club.sk1er.mods.betterfpslimit.transform.FramesTransformer;
-import jdk.nashorn.internal.runtime.regexp.joni.constants.OPCode;
-import net.minecraftforge.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
-import org.objectweb.asm.Label;
+import cpw.mods.fml.common.asm.transformers.deobf.FMLDeobfuscatingRemapper;
 import org.objectweb.asm.Opcodes;
 import org.objectweb.asm.tree.*;
 

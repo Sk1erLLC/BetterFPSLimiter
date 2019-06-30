@@ -6,8 +6,6 @@ import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.util.ChatComponentText;
 import net.minecraft.util.EnumChatFormatting;
-import net.minecraft.util.MinecraftError;
-import net.minecraft.util.StringUtils;
 import org.apache.commons.lang3.math.NumberUtils;
 
 public class BetterFPSLimiterCommand extends CommandBase {
