@@ -4,6 +4,9 @@ import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 
 import java.util.Map;
 
+@IFMLLoadingPlugin.SortingIndex(1001)
+@IFMLLoadingPlugin.DependsOn("forge")
+@IFMLLoadingPlugin.TransformerExclusions({"club/sk1er/mods/betterfpslimit/forge"})
 @SuppressWarnings("unused")
 public final class FMLLoadingPlugin implements IFMLLoadingPlugin {
 

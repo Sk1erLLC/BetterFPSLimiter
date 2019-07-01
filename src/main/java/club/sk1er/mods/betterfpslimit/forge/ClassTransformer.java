@@ -5,7 +5,6 @@ import club.sk1er.mods.betterfpslimit.transform.FullClassTransformer;
 import club.sk1er.mods.betterfpslimit.transform.impl.MinecraftTransformer;
 import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.Multimap;
-import cpw.mods.fml.relauncher.IFMLLoadingPlugin;
 import net.minecraft.launchwrapper.IClassTransformer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -17,7 +16,6 @@ import java.util.Collection;
 import java.util.HashMap;
 import java.util.Map;
 
-@IFMLLoadingPlugin.SortingIndex(value = 1000)
 public final class ClassTransformer implements IClassTransformer {
 
     private static final Logger LOGGER = LogManager.getLogger("ASM");
