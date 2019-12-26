@@ -1,0 +1,2 @@
+<br>
+<p>BetterFPSLimiter allows you to set the max fps to whatever you'd like, so you can get have less stress on the CPU</p>
